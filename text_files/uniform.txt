@@ -1,0 +1,5 @@
+This distribution is a uniform
+distribution. The odds of any team
+to win against any other team can 
+be anything from 0% to 100% equally.
+The odds are drawn randomly.

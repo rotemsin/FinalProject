@@ -1,0 +1,10 @@
+In this heuristic the favourite team 
+will play the 3 teams it has the 
+highest odds of beating in the group 
+stage, according to odds in the 
+probability matrix. If the favourite
+team goes through to the knockout
+stage, it will continue to face the 
+remaining teams it has the best odd 
+of winning against throughout the
+continuation of the tournament.

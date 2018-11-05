@@ -1,0 +1,9 @@
+This distribution uses a rating of all 
+teams, sorting them from the 
+strongest to the weakest according to 
+their odds of winning the World Cup. 
+The odds of team A, that has an odd 
+of 1/i to win the World Cup to beat
+team B, that has an odd of 1/j to win
+the World Cup is 
+(1 / j) / ((1 / i) + (1 / j)). 

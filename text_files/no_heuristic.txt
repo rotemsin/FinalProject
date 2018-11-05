@@ -1,0 +1,9 @@
+In this heuristic, the favourite team
+will play against 3 random teams in
+the group stage, with no relation to 
+the odds in the probability matrix.
+If the favourite team goes through to
+the knockout stage it will continue 
+to play teams randomly. This 
+heuristic is used as a test case to
+compare to all other heuristics. 

@@ -1,0 +1,10 @@
+In this heuristic the favourite team
+will play the team it is most likely
+to beat in the group stage (team w'),
+according to the probability matrix.
+Team w' team has it's own team 
+which it is most likely to beat (team
+w''), so that team will also play the
+favourite team in the group stage. 
+This process of choosing teams 
+continue throughout the tournament.

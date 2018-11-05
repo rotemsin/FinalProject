@@ -1,0 +1,8 @@
+This distribution uses a rating of all
+teams, sorting them from the 
+strongest to the weakest such that
+the strongest team has an index of 0
+and the weakest has an index of 31.
+The odds of a team of index i to 
+beat a team of index j is 
+(i + 1) / (i + j + 2).

@@ -1,0 +1,5 @@
+This distribution is a normal 
+distribution. The odds of any team
+to win against any other team are 
+distributed with a mean of 50% and a
+standard deviation of 10%. 

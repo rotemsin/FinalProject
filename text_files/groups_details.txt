@@ -1,0 +1,40 @@
+model.Group 1:
+Costa Rica
+Tunisia
+Panama
+France
+model.Group 2:
+Australia
+Denmark
+Peru
+Senegal
+model.Group 3:
+England
+Japan
+Sweden
+Argentina
+model.Group 4:
+Serbia
+Nigeria
+Germany
+Portugal
+model.Group 5:
+Spain
+Switzerland
+Brazil
+Morocco
+model.Group 6:
+Saudi Arabia
+Croatia
+South Korea
+Belgium
+model.Group 7:
+Russia
+Uruguay
+Colombia
+Iran
+model.Group 8:
+Poland
+Egypt
+Mexico
+Iceland

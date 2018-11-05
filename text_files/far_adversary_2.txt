@@ -1,0 +1,10 @@
+In this heuristic the favourite team 
+will play in the group stage against
+the 3 teams with the lowest average
+odds of winning against all other 
+teams (including the favourite team), 
+according to the odds in the 
+probability matrix, in the group 
+stage. This process of choosing the 
+teams continues throughout the 
+entire tournament.

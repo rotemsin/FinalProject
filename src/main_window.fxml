@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainBorderPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <left>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="150.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="flagsImageView" fitHeight="142.0" fitWidth="246.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Gal/FinalProject/flags.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="favouriteTeamLabel" text="Favourite Team">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></Label>
+            <ComboBox fx:id="favouriteTeamComboBox" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></ComboBox>
+            <Label fx:id="statisticsLabel" text="Statistics">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font></Label>
+            <Label fx:id="runsLabel" alignment="CENTER" text="Number of runs:">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></Label>
+            <ComboBox fx:id="runsComboBox" prefWidth="150.0" promptText="1">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></ComboBox>
+            <Label fx:id="singleTournamentLabel" disable="true" text="Single Tournament">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font></Label>
+            <Label fx:id="heuristicLabel" disable="true" text="Heuristic:" />
+            <ComboBox fx:id="heuristicsComboBox" disable="true" prefWidth="150.0" />
+            <Label fx:id="distributionLabel" disable="true" text="Distribution:" />
+            <ComboBox fx:id="distributionComboBox" disable="true" prefWidth="150.0" />
+         </children>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </VBox>
+   </left>
+   <top>
+      <HBox alignment="CENTER" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Select:" />
+            <ComboBox fx:id="selectActionComboBox" onAction="#enable" prefHeight="25.0" prefWidth="173.0" />
+            <Button fx:id="goButton" mnemonicParsing="false" onAction="#run" text="Go">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font></Button>
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+   </top>
+   <center>
+      <BarChart fx:id="barChart" BorderPane.alignment="CENTER">
+        <xAxis>
+          <CategoryAxis label="Heuristic/Distribution" side="BOTTOM" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="yAxis" label="Odd" side="LEFT" tickLabelGap="5.0" />
+        </yAxis>
+      </BarChart>
+   </center>
+   <right>
+      <VBox alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Gal/FinalProject/trophy.jpg" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </ImageView>
+            <Label text="Heuristic Info">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Label>
+            <Accordion>
+              <panes>
+                  <TitledPane animated="false" text="Far Adversary">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="farAdversaryLabel" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </TitledPane>
+                <TitledPane animated="false" text="Far Adversary 2">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="farAdversary2Label" />
+                           </children></AnchorPane>
+                  </content>
+                </TitledPane>
+                  <TitledPane animated="false" text="Best Win">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="bestWinLabel" />
+                           </children></AnchorPane>
+                    </content>
+                  </TitledPane>
+                  <TitledPane animated="false" text="Close Adversary">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="closeAdversaryLabel" />
+                           </children></AnchorPane>
+                    </content>
+                  </TitledPane>
+                  <TitledPane animated="false" text="No Heuristiic">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="noHeuristicLabel" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </TitledPane>
+              </panes>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Accordion>
+            <Label text="Distribution Info">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Label>
+            <Accordion>
+              <panes>
+                <TitledPane animated="false" text="Real Data">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="realDataLabel" />
+                           </children></AnchorPane>
+                  </content>
+                </TitledPane>
+                <TitledPane animated="false" text="Real Data 2">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="realData2Label" />
+                           </children></AnchorPane>
+                  </content>
+                </TitledPane>
+                <TitledPane animated="false" text="Uniform">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="uniformLabel" />
+                           </children></AnchorPane>
+                  </content>
+                </TitledPane>
+                  <TitledPane animated="false" text="Normal">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="normalLabel" />
+                           </children></AnchorPane>
+                    </content>
+                  </TitledPane>
+              </panes>
+            </Accordion>
+         </children>
+      </VBox>
+   </right>
+</BorderPane>

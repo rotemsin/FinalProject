@@ -1,0 +1,10 @@
+In this heuristic the favourite team 
+will play the 3 teams it is most 
+likely to lose to in the group stage, 
+Later on, it will continue to face
+teams it is unlikely to beat 
+throughout the tournament. The 
+thought behind this heuristic is that
+if the favourite team manages to beat
+the "stronger" teams early in the 
+tournament it can succeed later on.

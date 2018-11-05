@@ -1,0 +1,64 @@
+The odds for Costa Rica to finish in 1st place are 0.012866534000000002
+The odds for Costa Rica to finish in 2nd place are 0.36963464000000007
+The odds for Tunisia to finish in 1st place are 0.08336234520000002
+The odds for Tunisia to finish in 2nd place are 0.3150427608000001
+The odds for Panama to finish in 1st place are 0.047619120800000005
+The odds for Panama to finish in 2nd place are 0.20257846160000004
+The odds for France to finish in 1st place are 0.856152
+The odds for France to finish in 2nd place are 0.11274413760000002
+The odds for Australia to finish in 1st place are 0.7274065792000004
+The odds for Australia to finish in 2nd place are 0.18808064000000005
+The odds for Denmark to finish in 1st place are 0.011544444800000001
+The odds for Denmark to finish in 2nd place are 0.10868561600000001
+The odds for Peru to finish in 1st place are 0.20170897600000004
+The odds for Peru to finish in 2nd place are 0.4780650240000002
+The odds for Senegal to finish in 1st place are 0.059340000000000004
+The odds for Senegal to finish in 2nd place are 0.22516872000000002
+The odds for England to finish in 1st place are 0.0812682844
+The odds for England to finish in 2nd place are 0.11703036000000001
+The odds for Japan to finish in 1st place are 0.6551350272000003
+The odds for Japan to finish in 2nd place are 0.17288604840000002
+The odds for Sweden to finish in 1st place are 0.08801268840000002
+The odds for Sweden to finish in 2nd place are 0.30535591200000006
+The odds for Argentina to finish in 1st place are 0.17558400000000002
+The odds for Argentina to finish in 2nd place are 0.4047276796
+The odds for Serbia to finish in 1st place are 0.368402304
+The odds for Serbia to finish in 2nd place are 0.4510495999999999
+The odds for Nigeria to finish in 1st place are 0.095604096
+The odds for Nigeria to finish in 2nd place are 0.0990192
+The odds for Germany to finish in 1st place are 0.025593600000000005
+The odds for Germany to finish in 2nd place are 0.06040640000000001
+The odds for Portugal to finish in 1st place are 0.5104
+The odds for Portugal to finish in 2nd place are 0.38952479999999995
+The odds for Spain to finish in 1st place are 0.15618530240000003
+The odds for Spain to finish in 2nd place are 0.31696988
+The odds for Switzerland to finish in 1st place are 0.13439329999999997
+The odds for Switzerland to finish in 2nd place are 0.03803727760000001
+The odds for Brazil to finish in 1st place are 0.24877139760000003
+The odds for Brazil to finish in 2nd place are 0.2770655224
+The odds for Morocco to finish in 1st place are 0.46065
+The odds for Morocco to finish in 2nd place are 0.36792732000000006
+The odds for Saudi Arabia to finish in 1st place are 0.20351705940000006
+The odds for Saudi Arabia to finish in 2nd place are 0.18434917000000006
+The odds for Croatia to finish in 1st place are 0.5318806218000002
+The odds for Croatia to finish in 2nd place are 0.18377348880000005
+The odds for South Korea to finish in 1st place are 0.16522031880000004
+The odds for South Korea to finish in 2nd place are 0.2956576122000001
+The odds for Belgium to finish in 1st place are 0.09938200000000003
+The odds for Belgium to finish in 2nd place are 0.3362197290000002
+The odds for Russia to finish in 1st place are 0.036211
+The odds for Russia to finish in 2nd place are 0.23173800000000006
+The odds for Uruguay to finish in 1st place are 0.6624483300000001
+The odds for Uruguay to finish in 2nd place are 0.23419167
+The odds for Colombia to finish in 1st place are 0.04034067000000001
+The odds for Colombia to finish in 2nd place are 0.04189933000000001
+The odds for Iran to finish in 1st place are 0.261
+The odds for Iran to finish in 2nd place are 0.49217099999999997
+The odds for Poland to finish in 1st place are 0.279017548
+The odds for Poland to finish in 2nd place are 0.23877964000000004
+The odds for Egypt to finish in 1st place are 0.47093226000000005
+The odds for Egypt to finish in 2nd place are 0.3168838320000001
+The odds for Mexico to finish in 1st place are 0.03949019200000001
+The odds for Mexico to finish in 2nd place are 0.09978841600000002
+The odds for Iceland to finish in 1st place are 0.21056000000000005
+The odds for Iceland to finish in 2nd place are 0.344548112
